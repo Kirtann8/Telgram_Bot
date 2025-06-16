@@ -32,4 +32,6 @@ A virtual girlfriend bot for Telegram that remembers notes and responds to messa
 
 - `/start` - Begin conversation with the bot
 - `/note [text]` - Save a note to remember
-- `/notes` - List all saved notes 
+- `/notes` - List all saved notes with their numbers
+- `/forget [number]` - Delete a specific note by its number
+- `/forget all` - Delete all saved notes 

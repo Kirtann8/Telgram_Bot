@@ -8,8 +8,15 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
     mood: String,
+    
     notes: [String],
+
+    currentMode: {
+      type: String,
+      default: 'gf',
+    },
   },
+
   { timestamps: true }
 );
 
